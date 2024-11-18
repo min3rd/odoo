@@ -1,11 +1,11 @@
 services:
   postgres:
-    image: postgres:9.6
+    image: postgres:latest
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
-    volumes:
-      - ./docker/postgres:/var/lib/postgresql/data
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    #   POSTGRES_DB: odoo
+    # volumes:
+    #   - ./docker/postgres:/var/lib/postgresql/data
