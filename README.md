@@ -32,8 +32,35 @@ from the documentation.
 To learn the software, we recommend the <a href="https://www.odoo.com/slides">Odoo eLearning</a>, or <a href="https://www.odoo.com/page/scale-up-business-game">Scale-up</a>, the <a href="https://www.odoo.com/page/scale-up-business-game">business game</a>. Developers can start with <a href="https://www.odoo.com/documentation/master/developer/howtos.html">the developer tutorials</a>
 
 
-## Get started
+## Get started (Developing)
 
 # Enviroments
 
-1. Python: 3.12
+1. Python >= 12 3.12
+2. Docker desktop
+
+#  Start dev
+
+1. Install package
+    ```sh
+    pip install -r requirements.txt
+    ```
+2. Start docker
+    ```sh
+    docker compose up -d
+    ```
+3. Make odoo.conf
+    ```sh
+    cp odoo.conf.example odoo.conf
+    ```
+    Notice: On windows, we just copy and paste, the can rename the configuration file to ```odoo.conf```
+    You also can make configuration file from command ```python odoo-bin -s```
+4. Run
+    ```sh
+    python odoo-bin -i base
+    ```
+    Notice: ```-i base``` (that mean run with base database initialization)
+5. Make new add-ons in addons folder from tutorial
+    ```
+    https://www.odoo.com/documentation/18.0/developer/tutorials/server_framework_101.html
+    ```
