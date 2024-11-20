@@ -36,7 +36,7 @@ To learn the software, we recommend the <a href="https://www.odoo.com/slides">Od
 
 # Enviroments
 
-1. Python >= 12 3.12
+1. Python >= 3.12
 2. Docker desktop
 
 #  Start dev
