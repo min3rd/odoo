@@ -53,7 +53,7 @@ To learn the software, we recommend the <a href="https://www.odoo.com/slides">Od
     ```sh
     cp odoo.conf.example odoo.conf
     ```
-    Notice: On windows, we just copy and paste, the can rename the configuration file to ```odoo.conf```
+    Notice: On windows, we just copy and paste, then rename the configuration file to ```odoo.conf```
     You also can make configuration file from command ```python odoo-bin -s```
 4. Run
     ```sh
