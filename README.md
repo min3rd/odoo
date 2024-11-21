@@ -60,6 +60,12 @@ To learn the software, we recommend the <a href="https://www.odoo.com/slides">Od
     python odoo-bin -i base
     ```
     Notice: ```-i base``` (that mean run with base database initialization)
+    
+    Now you can connect to ```http://localhost:8069```
+    ```
+    username: admin
+    password: admin
+    ```
 5. Make new add-ons in addons folder from tutorial
     ```
     https://www.odoo.com/documentation/18.0/developer/tutorials/server_framework_101.html
